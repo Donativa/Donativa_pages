@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>perfil do beneficiario</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <style type="text/css" title="MeuEstilo" media="all">
+        * {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        body {
+            background-color: #8f4777;
+            text-align: center;
+            margin: 25px;
+        }
+
+        .container {
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            box-shadow: 6px 4px 6px #000;
+            padding: 15px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2E2E2E;
+        }
+
+        h2 {
+            color: #2E2E2E;
+            font-size: 14px;
+        }
+
+        .about h1 {
+            font-size: 16px;
+        }
+
+        .about p {
+            color: #A5A5A5;
+            font-weight: 400;
+        }
+
+        .button {
+            width: 200px;
+            background-color: #b10a79;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px 10px;
+            cursor: pointer;
+
+        }
+
+
+        .about {
+            padding: 30px;
+            margin: 30px;
+            background-color: #fff;
+            border-radius: 0%;
+            text-align: center;
+        }
+
+        img.avatar {
+            width: 200px;
+            border-radius: 10%;
+            filter: grayscale(1);
+            transition: 0.5s;
+        }
+
+        img.ico {
+            width: 20px;
+            filter: grayscale(1);
+            transition: 0.5s;
+
+        }
+
+        img:hover {
+            filter: grayscale(0);
+            cursor: pointer;
+            border-radius: 50%;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .negrito {
+            font-weight: 700;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1> Perfil </h1>
+        <p>Sou uma estudante de programação</p>
+        <img class="avatar" src="./img/shogun icon.jpg" alt="Avatar">
+
+        <div class="about">
+            <h1>Sobre mim</h1>
+            <p> colocar descrição</p>
+        </div>
+        <div>
+            <h2>Detalhes</h2>
+
+            <span class="negrito">Nome:</span>
+            <p>Raiden Ei</p>
+            <span class="negrito">Idade:</span>
+            <p>34 anos</p>
+            <span class="negrito">Localização:</span>
+            <p>Inazuma- Teyvat</p>
+            <span class="negrito">Sexo</span>
+            <p>Feminino</p>
+
+            <button class="button">Faça uma doação</button>
+
+            <div class="icon">
+                <img src="./img/icon face.png" class="ico" />
+                <img src="./img/icon insta.png" class="ico" />
+                <img src="./img/icon twitter.png" class="ico" />
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
